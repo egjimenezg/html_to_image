@@ -3,8 +3,8 @@ defmodule HtmlToImage.Mixfile do
 
   def project do
     [app: :html_to_image,
-     version: "0.1.3",
-     elixir: "~> 1.3",
+     version: "0.1.4",
+     elixir: "~> 1.16",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps(),
